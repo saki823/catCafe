@@ -7,6 +7,7 @@ $(function(){
 
   });
 
+
 function slideSwitch() {
    var $active = $('#mainvisual img.active');
 
