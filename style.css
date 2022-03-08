@@ -43,7 +43,7 @@ footer > p{
 	font-family: 'Reem Kufi', sans-serif;
 }
 
-br {
+br{
 	display: block;
 	content: "";
 	margin: 10px 0;
@@ -442,6 +442,21 @@ footer > p{
 #sec_access > div:nth-child(2) img{
 	height: 500px;
 	object-fit: cover;
+}
+
+#sec_concept > div:nth-child(2) img{
+	object-position: right 30% center;
+}
+
+#sec_concept > div:nth-child(4) img,
+#sec_concept > div:nth-child(6) img{
+	object-position: left 20% center;
+}
+
+#sec_cats > div:nth-child(2) img,
+#sec_system > div:nth-child(2) img,
+#sec_access > div:nth-child(2) img{
+	object-position: center;
 }
 
 #sec_concept > div:nth-child(2) img,

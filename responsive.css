@@ -40,10 +40,7 @@
 
 @media screen and (max-width:800px){
 
-	.br::before {
-		content: "\A" ;
-		white-space: pre ;
-	}
+
 
 	
 	header{
@@ -59,7 +56,7 @@
 	}
 
 	header h1 a{
-		font-size: clamp(16px,4.5vw,26px);
+		font-size: 24px;
 		line-height: 60px;
 		margin: 0 auto;
 		height: 70px;
@@ -199,7 +196,9 @@
 	#sec_cats h2,
 	#sec_system h2,
 	#sec_access h2{
-		display: none;
+		top: 60px;
+		left: 6%;
+		font-size: 24px;
 	}
 
 	#mainvisual{
@@ -210,6 +209,15 @@
 		height: 520px;
 		object-fit: cover;
 		overflow: hidden;
+	}
+
+	#sec_concept > div:nth-child(2) img,
+	#sec_concept > div:nth-child(4) img,
+	#sec_concept > div:nth-child(6) img,
+	#sec_cats > div:nth-child(2) img,
+	#sec_system > div:nth-child(2) img,
+	#sec_access > div:nth-child(2) img{
+		height: 400px;
 	}
 
 	#sec_concept > div:nth-child(3) h4,
@@ -318,7 +326,7 @@
 	}
 
 	#sec_access > div:nth-child(3) > div:nth-child(2) img{
-		height: 340px;
+		height: 320px;
 	}
 
 	#sec_access > div:nth-child(3) > div:nth-child(1) .sns{
@@ -330,7 +338,12 @@
 
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 450px){
+
+	.br::before {
+		content: "\A" ;
+		white-space: pre ;
+	}
 
 	#sec_concept > div:nth-child(2) img,
 	#sec_cats > div:nth-child(2) img,
