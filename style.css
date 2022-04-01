@@ -1,7 +1,8 @@
 @charset "utf-8";
 
 *{
-	font-family: 'Zen Maru Gothic', sans-serif;
+	font-family: mamelon, sans-serif;
+	font-weight: 300;
 	margin: 0;
 	padding: 0;
 	color: #34302E;
@@ -25,21 +26,7 @@ a{
 	text-decoration: none;
 }
 
-/*font-family: 'Reem Kufi', sans-serif;
-font-family: 'Zen Maru Gothic', sans-serif;*/
-
-header h1 a,
-header nav ul li a,
-header dl dt,
-h2,
-#news dl dt,
-button a,
-#access dl dt:nth-of-type(3),
-#access dl dt:nth-of-type(4),
-#sec_access > div:nth-child(3) > div:nth-child(1) dl dt:nth-of-type(3),
-#sec_access > div:nth-child(3) > div:nth-child(1) dl dt:nth-of-type(4),
-#sec_access > div:nth-child(3) > div:nth-child(1) dl dt:nth-of-type(5),
-footer > p{
+header h1 a,header nav ul li a,header dl dt,h2,button a,#access dl dt:nth-of-type(3),#access dl dt:nth-of-type(4),#sec_access > div:nth-child(3) > div:nth-child(1) dl dt:nth-of-type(3),#sec_access > div:nth-child(3) > div:nth-child(1) dl dt:nth-of-type(4),#sec_access > div:nth-child(3) > div:nth-child(1) dl dt:nth-of-type(5),footer > p{
 	font-family: 'Reem Kufi', sans-serif;
 }
 
@@ -59,7 +46,7 @@ button.more{
 	background-position: right 37px center;
 	background-repeat: no-repeat;
 	border-radius: 8px;
-	box-shadow: 0px 0px 10px rgba(52, 48, 46, 0.25);
+	box-shadow: 0px 2px 5px rgba(52, 48, 46, 0.2);
 	pointer-events: none;
 	transition-duration: .5s;
 }
@@ -118,11 +105,16 @@ header nav ul li {
 	margin-bottom: 20px;
 	transition-duration: .5s;
 	height: 46px;
+	width: 180px;
+	background-position: top 7px right;
+	background-repeat: no-repeat;
 }
 
 header nav ul li:hover{
 	transform: translateY(4px);
 	transition-duration: .5s;
+	background-image: url(img/arrow.png);
+	
 }
 
 header nav ul li:last-child{
@@ -133,33 +125,7 @@ header nav ul li a{
 	font-size: 24px;
 	letter-spacing: 0.1em;
 	font-weight: 500;
-}
-
-header nav ul li:nth-child(1) a{
-	padding-right: 44px;
-}
-
-header nav ul li:nth-child(2) a{
-	padding-right: 44px;
-}
-
-header nav ul li:nth-child(3) a{
-	padding-right: 108px;
-}
-
-header nav ul li:nth-child(4) a{
-	padding-right: 67px;
-}
-
-header nav ul li:nth-child(5) a{
-	padding-right: 70px;
-}
-
-
-header nav ul li:hover a{
-	background-image: url(img/arrow.png);
-	background-position: right;
-	background-repeat: no-repeat;
+	width: 100%;
 }
 
 header nav ul li p{
@@ -216,8 +182,7 @@ header dl dd{
 }
 
 .container{
-	width: auto;/*設定するな*/
-	max-width: 1200px;
+	width: auto;/*設定しない*/
 	position: absolute;
 	top: 0;
 	left: 244px;
@@ -226,25 +191,27 @@ header dl dd{
 
 h2{
 	font-size: 28px;
-	color: #F86800;
+	color: #34302E;
 	font-weight: 600;
 }
 
 #mainvisual{
 	width: 100%;
-	height: 720px;
+	height: 50vw;
+	max-height: 720px;
 	position: relative;
 }
 
 #mainvisual img{
-	height: 720px;
+	height: 50vw;
+	max-height: 720px;
 	width: 100%;
 	object-fit: cover;
 	position: absolute;
-    top: 0;
-    left:0;
-    z-index: 8;
-    opacity: 0.0;
+  top: 0;
+  left:0;
+  z-index: 8;
+  opacity: 0.0;
 }
 
 #mainvisual img.active {
@@ -260,22 +227,25 @@ h2{
 #cats,
 #access{
 	width: 100%;
-	max-width: 1200px;
 	margin: 100px auto 0 auto;
 	background-color: #ffffff;
 	text-align: center;
 	padding: 30px 0 40px 0;
 }
 
-#about p{
+/*width70%*/
+#about p,#access_inner,footer div,#sec_concept > div:nth-child(3) h4,#sec_concept > div:nth-child(5) h4,#sec_concept > div:nth-child(7) h4,#sec_cats > div:nth-child(3) h4,#sec_system h4,#sec_concept > div:nth-child(3) p,#sec_concept > div:nth-child(5) p,#sec_concept > div:nth-child(7) p,#sec_system > div:nth-child(3) p,#sec_system > div:nth-child(4) p,#sec_cats > div:nth-child(4) ul,#sec_system > div:nth-child(3) dl,#sec_system > div:nth-child(5) ul,#sec_system > div:nth-child(5) > p,#sec_access > div:nth-child(3){
 	width: 70%;
+}
+
+#about p{
 	margin: 20px auto 0 auto;
 	font-size: 16px;
 	line-height: 180%;
 }
 
 #news dl{
-	width: 70%;
+	width: 75%;
 	max-width: 600px;
 	margin: 20px auto 30px auto;
 	font-size: 16px;
@@ -283,11 +253,11 @@ h2{
 	display: flex;
 	flex-wrap: wrap;
 	text-align: left;
+	justify-content: space-between;
 }
 
 #news dl dt{
 	width: 21%;
-	padding-left: 4%;
 	margin-bottom: 18px;
 }
 
@@ -321,7 +291,6 @@ h2{
 }
 
 #access_inner{
-	width: 70%;
 	margin: 30px auto;
 	display: flex;
 	justify-content: space-between;
@@ -391,7 +360,6 @@ footer{
 }
 
 footer div{
-	width: 70%;
 	margin: 0 auto;
 }
 
@@ -424,23 +392,25 @@ footer > p{
 #sec_system h2,
 #sec_access h2{
 	position: absolute;
-	top: 20px;
+	top: 24px;
 	left: 20px;
 	z-index: 2;
 }
 
-#sec_concept > div:nth-child(2),
-#sec_cats > div:nth-child(2){
+#sec_cats h2,
+#sec_system h2{
+	color: #F86800;
+}
+
+#sec_concept > div:nth-child(2),#sec_cats > div:nth-child(2),#sec_system > div:nth-child(2),#sec_access > div:nth-child(2){
 	width: 100%;
 }
 
-#sec_concept > div:nth-child(2) img,
-#sec_concept > div:nth-child(4) img,
-#sec_concept > div:nth-child(6) img,
-#sec_cats > div:nth-child(2) img,
-#sec_system > div:nth-child(2) img,
-#sec_access > div:nth-child(2) img{
-	height: 500px;
+#sec_concept > div:nth-child(2) img,#sec_concept > div:nth-child(4) img,#sec_concept > div:nth-child(6) img,#sec_cats > div:nth-child(2) img,#sec_system > div:nth-child(2) img,#sec_access > div:nth-child(2) img{
+	height: 34.7vw;
+	max-height: 500px;
+	min-height: 400px;
+	width: 100%;
 	object-fit: cover;
 }
 
@@ -508,7 +478,6 @@ footer > p{
 #sec_concept > div:nth-child(7) h4,
 #sec_cats > div:nth-child(3) h4,
 #sec_system h4{
-	width: 70%;
 	margin: 0 auto;
 	font-size: 20px;
 }
@@ -518,7 +487,6 @@ footer > p{
 #sec_concept > div:nth-child(7) p,
 #sec_system > div:nth-child(3) p,
 #sec_system > div:nth-child(4) p{
-	width: 70%;
 	margin: 20px auto 0 auto;
 	font-size: 16px;
 	line-height: 200%;
@@ -547,7 +515,6 @@ footer > p{
 }
 
 #sec_cats > div:nth-child(4) ul{
-	width: 70%;
 	min-width: 540px;
 	margin: 0 auto;
 	display: flex;
@@ -570,38 +537,42 @@ footer > p{
 	flex-wrap: wrap;
 }
 
-#sec_cats > div:nth-child(4) ul li a img{
+#sec_cats > div:nth-child(4) ul li a .staff_img{
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+	overflow: hidden;
+	display: flex;
+}
+
+#sec_cats > div:nth-child(4) ul li a .staff_img img{
 	width: 100%;
 	transition-duration: 1s;
-	border-radius: 100%;
-	border: 3px dashed transparent;
 }
 
-#sec_cats > div:nth-child(4) ul li a:hover img{
-	transform: rotate(35deg);
+#sec_cats > div:nth-child(4) ul li a:hover .staff_img img{
+	transform: scale(1.2,1.2);
 	transition-duration: .7s;
-	border: 3px dashed #34302E;
-
 }
 
-#sec_cats > div:nth-child(4) ul li a div{
+#sec_cats > div:nth-child(4) ul li a div:nth-child(2){
 	width: 80px;
 	margin: 20px auto 0 auto;
 	display: flex;
 	flex-wrap: wrap;
 }
 
-#sec_cats > div:nth-child(4) ul li a div p:nth-of-type(1){
+#sec_cats > div:nth-child(4) ul li a div:nth-child(2) p:nth-of-type(1){
 	width: 60%;
 	text-align: left;
 }
 
-#sec_cats > div:nth-child(4) ul li a div p:nth-of-type(2){
+#sec_cats > div:nth-child(4) ul li a div:nth-child(2) p:nth-of-type(2){
 	width: 40%;
 	text-align: right;
 }
 
-#sec_cats > div:nth-child(4) ul li a div p:nth-of-type(3){
+#sec_cats > div:nth-child(4) ul li a div:nth-child(2) p:nth-of-type(3){
 	width: 100%;
 	text-align: center;
 }
@@ -640,7 +611,6 @@ footer > p{
 #sec_system > div:nth-child(3) dl{
 	display: flex;
 	flex-wrap: wrap;
-	width: 70%;
 	max-width: 500px;
 	margin: 30px auto 0 auto;
 }
@@ -667,7 +637,6 @@ footer > p{
 }
 
 #sec_system > div:nth-child(5) ul{
-	width: 70%;
 	margin: 30px auto 0 auto;
 	display: flex;
 	flex-wrap: wrap;
@@ -697,12 +666,10 @@ footer > p{
 }
 
 #sec_system > div:nth-child(5) > p{
-	width: 70%;
 	margin: 30px auto 0 auto;
 }
 
 #sec_access > div:nth-child(3) {
-	width: 70%;
 	padding: 30px 15% 40px 15%;
 	display: flex;
 	flex-wrap: wrap;
@@ -734,5 +701,3 @@ footer > p{
 	height: 340px;
 	margin-top: 50px;
 }
-
-

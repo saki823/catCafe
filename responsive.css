@@ -146,15 +146,16 @@
 		padding: 7vh 0 0 0 ;
 		margin: 50px auto 0 -100vw;
 		transition-duration: .6s;
-		overflow: scroll;
 		z-index: 11;
+		background-color: #fff;
+		background-image: url(img/headerbg.png);
+		background-repeat: no-repeat;
+		background-position: right bottom;
 	}
 
 	#headerinner.open{
 		display: block;
 		margin:50px auto 0 0;
-		overflow: scroll;
-		background-color: #fff;
 		transition-duration: .7s;
 	}
 
@@ -192,6 +193,10 @@
 		padding: 0 59px 0 29px;
 	}
 
+	h2{
+		font-size: 3.5vw;
+	}
+
 	#sec_concept h2,
 	#sec_cats h2,
 	#sec_system h2,
@@ -202,13 +207,11 @@
 	}
 
 	#mainvisual{
-		height: 520px;
+		height: 70vw;
 	}
 
 	#mainvisual img{
-		height: 520px;
-		object-fit: cover;
-		overflow: hidden;
+		height: 70vw;
 	}
 
 	#sec_concept > div:nth-child(2) img,
@@ -217,7 +220,9 @@
 	#sec_cats > div:nth-child(2) img,
 	#sec_system > div:nth-child(2) img,
 	#sec_access > div:nth-child(2) img{
-		height: 400px;
+		height: 50vw;
+		max-height: 400px;
+		min-height: 0;
 	}
 
 	#sec_concept > div:nth-child(3) h4,
@@ -257,7 +262,6 @@
 	}
 
 	#about p,
-	#news dl,
 	#access_inner,
 	footer div,
 	#sec_concept > div:nth-child(3) h4,
@@ -345,11 +349,37 @@
 		white-space: pre ;
 	}
 
-	#sec_concept > div:nth-child(2) img,
-	#sec_cats > div:nth-child(2) img,
-	#sec_system > div:nth-child(2) img,
-	#sec_access > div:nth-child(2) img{
-		height: 400px;
+	header nav ul li{
+		height: 10.2vw;
+		max-height: 40px ;
+		min-height: 34px;
+	}
+
+	header nav ul li a,
+	header dl dt,
+	header dl dd{
+		font-size: 4.44vw;
+	}
+
+	header nav ul li p{
+		font-size: 10px;
+	}
+
+	header dl{
+		width: 40vw;
+	}
+
+	button.more{
+		font-size: 4.44vw;
+		line-height: 155%;
+	}
+
+	h2,
+	#sec_concept h2,
+	#sec_cats h2,
+	#sec_system h2,
+	#sec_access h2{
+		font-size: 5.33vw;
 	}
 
 	#sec_system > div:nth-child(5) ul li{
@@ -370,7 +400,11 @@
 	#sec_concept > div:nth-child(7) h4,
 	#sec_cats > div:nth-child(3) h4,
 	#sec_system h4{
-		font-size: 16px;
+		font-size: 3.56vw;
+	}
+
+	#sec_cats > div:nth-child(4) ul li a div{
+		font-size: 3.11vw;
 	}
 
 	#about p,
@@ -383,8 +417,13 @@
 	#sec_concept > div:nth-child(7) p,
 	#sec_system > div:nth-child(5) > p,
 	#sec_access > div:nth-child(3) > div:nth-child(1) dl dt,
-	#sec_access > div:nth-child(3) > div:nth-child(1) dl dd{
-		font-size: 12px;
+	#sec_access > div:nth-child(3) > div:nth-child(1) dl dd,
+	#sec_system > div:nth-child(3) dl dt, 
+	#sec_system > div:nth-child(3) dl dd,
+	#sec_system > div:nth-child(3) p,
+	#sec_system > div:nth-child(4) p,
+	#sec_system > div:nth-child(4) p a{
+		font-size: 2.67vw;
 	}
 
 	#access_inner p,
@@ -404,4 +443,6 @@
 	footer > p{
 		font-size: 8px;
 	}
+
+	
 }
