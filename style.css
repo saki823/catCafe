@@ -387,18 +387,14 @@ footer > p{
 	text-align: center;
 }
 
-#sec_concept h2,
-#sec_cats h2,
-#sec_system h2,
-#sec_access h2{
+#sec_concept h2,#sec_cats h2,#sec_system h2,#sec_access h2{
 	position: absolute;
 	top: 24px;
 	left: 20px;
 	z-index: 2;
 }
 
-#sec_cats h2,
-#sec_system h2{
+#sec_cats h2,#sec_system h2{
 	color: #F86800;
 }
 
@@ -418,21 +414,15 @@ footer > p{
 	object-position: right 30% center;
 }
 
-#sec_concept > div:nth-child(4) img,
-#sec_concept > div:nth-child(6) img{
+#sec_concept > div:nth-child(4) img,#sec_concept > div:nth-child(6) img{
 	object-position: left 20% center;
 }
 
-#sec_cats > div:nth-child(2) img,
-#sec_system > div:nth-child(2) img,
-#sec_access > div:nth-child(2) img{
+#sec_cats > div:nth-child(2) img,#sec_system > div:nth-child(2) img,#sec_access > div:nth-child(2) img{
 	object-position: center;
 }
 
-#sec_concept > div:nth-child(2) img,
-#sec_cats > div:nth-child(2) img,
-#sec_system > div:nth-child(2) img,
-#sec_access > div:nth-child(2) img{
+#sec_concept > div:nth-child(2) img,#sec_cats > div:nth-child(2) img,#sec_system > div:nth-child(2) img,#sec_access > div:nth-child(2) img{
 	animation-duration: 2.4s;
 	animation-name: fadeIn;
 	animation-fill-mode:both;
@@ -448,9 +438,7 @@ footer > p{
   }
 }
 
-#sec_concept > div:nth-child(3),
-#sec_concept > div:nth-child(5),
-#sec_concept > div:nth-child(7){
+#sec_concept > div:nth-child(3),#sec_concept > div:nth-child(5),#sec_concept > div:nth-child(7){
 	width: 100%;
 	padding: 30px 0 40px 0;
 	background-color: #fff;
@@ -473,20 +461,12 @@ footer > p{
 	background-position: right 10% bottom 5%;
 }
 
-#sec_concept > div:nth-child(3) h4,
-#sec_concept > div:nth-child(5) h4,
-#sec_concept > div:nth-child(7) h4,
-#sec_cats > div:nth-child(3) h4,
-#sec_system h4{
+#sec_concept > div:nth-child(3) h4,#sec_concept > div:nth-child(5) h4,#sec_concept > div:nth-child(7) h4,#sec_cats > div:nth-child(3) h4,#sec_system h4{
 	margin: 0 auto;
 	font-size: 20px;
 }
 
-#sec_concept > div:nth-child(3) p,
-#sec_concept > div:nth-child(5) p,
-#sec_concept > div:nth-child(7) p,
-#sec_system > div:nth-child(3) p,
-#sec_system > div:nth-child(4) p{
+#sec_concept > div:nth-child(3) p,#sec_concept > div:nth-child(5) p,#sec_concept > div:nth-child(7) p,#sec_system > div:nth-child(3) p,#sec_system > div:nth-child(4) p{
 	margin: 20px auto 0 auto;
 	font-size: 16px;
 	line-height: 200%;
@@ -589,10 +569,7 @@ footer > p{
 	text-align: center;
 }
 
-#sec_system > div:nth-child(3),
-#sec_system > div:nth-child(4),
-#sec_system > div:nth-child(5),
-#sec_access > div:nth-child(3){
+#sec_system > div:nth-child(3),#sec_system > div:nth-child(4),#sec_system > div:nth-child(5),#sec_access > div:nth-child(3){
 	padding: 30px 0 40px 0;
 	margin-top: 100px;
 	background-color: #fff;
