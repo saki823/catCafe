@@ -449,16 +449,19 @@ footer > p{
 #sec_concept > div:nth-child(3){
 	background-image: url(img/conceptbg_01.png);
 	background-position: right 10% center;
+	background-size: 200px;
 }
 
 #sec_concept > div:nth-child(5){
 	background-image: url(img/conceptbg_02.png);
 	background-position: left 5% center;
+	background-size: 200px;
 }
 
 #sec_concept > div:nth-child(7){
 	background-image: url(img/conceptbg_03.png);
 	background-position: right 10% bottom 5%;
+	background-size: 200px;
 }
 
 #sec_concept > div:nth-child(3) h4,#sec_concept > div:nth-child(5) h4,#sec_concept > div:nth-child(7) h4,#sec_cats > div:nth-child(3) h4,#sec_system h4{
