@@ -193,7 +193,8 @@
 		padding: 0 59px 0 29px;
 	}
 
-	#sec_concept h2,#sec_cats h2,#sec_system h2,#sec_access h2{
+	/*各ページ見出し*/
+	#sec_concept h2,#sec_cats h2,#sec_system h2,#sec_access h2,#sec_news h2{
 		top: 60px;
 		left: 6%;
 		font-size: 24px;
@@ -207,7 +208,8 @@
 		height: 70vw;
 	}
 
-	#sec_concept > div:nth-child(2) img,#sec_concept > div:nth-child(4) img,#sec_concept > div:nth-child(6) img,#sec_cats > div:nth-child(2) img,#sec_system > div:nth-child(2) img,#sec_access > div:nth-child(2) img{
+	/*幅100%img*/
+	#sec_concept > div:nth-child(2) img,#sec_concept > div:nth-child(4) img,#sec_concept > div:nth-child(6) img,#sec_cats > div:nth-child(2) img,#sec_system > div:nth-child(2) img,#sec_access > div:nth-child(2) img,#sec_news > div:nth-child(2) img{
 		height: 50vw;
 		max-height: 400px;
 		min-height: 0;

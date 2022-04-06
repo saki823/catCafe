@@ -30,6 +30,12 @@ header h1 a,header nav ul li a,header dl dt,h2,button a,#access dl dt:nth-of-typ
 	font-family: 'Reem Kufi', sans-serif;
 }
 
+/*background-color:#fff*/
+button.more,#about,#news,#cats,#access,footer,#sec_concept > div:nth-child(3),#sec_concept > div:nth-child(5),#sec_concept > div:nth-child(7),#sec_cats > div:nth-child(3),#sec_system > div:nth-child(3),#sec_system > div:nth-child(4),#sec_system > div:nth-child(5),#sec_access > div:nth-child(3),#sec_news div:nth-child(3){
+	background-color: #fff;
+}
+
+
 br{
 	display: block;
 	content: "";
@@ -41,7 +47,6 @@ button.more{
 	line-height: 40px;
 	letter-spacing: 0.1em;
 	border: 0;
-	background-color: #fff;
 	background-image: url(img/arrow.png);
 	background-position: right 37px center;
 	background-repeat: no-repeat;
@@ -222,19 +227,15 @@ h2{
    z-index: 9;
 }
 
-#about,
-#news,
-#cats,
-#access{
+#about,#news,#cats,#access{
 	width: 100%;
 	margin: 100px auto 0 auto;
-	background-color: #ffffff;
 	text-align: center;
 	padding: 30px 0 40px 0;
 }
 
 /*width70%*/
-#about p,#access_inner,footer div,#sec_concept > div:nth-child(3) h4,#sec_concept > div:nth-child(5) h4,#sec_concept > div:nth-child(7) h4,#sec_cats > div:nth-child(3) h4,#sec_system h4,#sec_concept > div:nth-child(3) p,#sec_concept > div:nth-child(5) p,#sec_concept > div:nth-child(7) p,#sec_system > div:nth-child(3) p,#sec_system > div:nth-child(4) p,#sec_cats > div:nth-child(4) ul,#sec_system > div:nth-child(3) dl,#sec_system > div:nth-child(5) ul,#sec_system > div:nth-child(5) > p,#sec_access > div:nth-child(3){
+#about p,#access_inner,footer div,#sec_concept > div:nth-child(3) h4,#sec_concept > div:nth-child(5) h4,#sec_concept > div:nth-child(7) h4,#sec_cats > div:nth-child(3) h4,#sec_system h4,#sec_concept > div:nth-child(3) p,#sec_concept > div:nth-child(5) p,#sec_concept > div:nth-child(7) p,#sec_system > div:nth-child(3) p,#sec_system > div:nth-child(4) p,#sec_cats > div:nth-child(4) ul,#sec_system > div:nth-child(3) dl,#sec_system > div:nth-child(5) ul,#sec_system > div:nth-child(5) > p,#sec_access > div:nth-child(3),#sec_news div:nth-child(3) dl{
 	width: 70%;
 }
 
@@ -355,7 +356,6 @@ h2{
 footer{
 	margin-top: 100px;
 	height: 230px;
-	background-color: #fff;
 	padding: 40px 0;
 }
 
@@ -387,7 +387,8 @@ footer > p{
 	text-align: center;
 }
 
-#sec_concept h2,#sec_cats h2,#sec_system h2,#sec_access h2{
+/*各ページ見出し*/
+#sec_concept h2,#sec_cats h2,#sec_system h2,#sec_access h2,#sec_news h2{
 	position: absolute;
 	top: 24px;
 	left: 20px;
@@ -398,13 +399,14 @@ footer > p{
 	color: #F86800;
 }
 
-#sec_concept > div:nth-child(2),#sec_cats > div:nth-child(2),#sec_system > div:nth-child(2),#sec_access > div:nth-child(2){
+/*各ページトップdiv*/
+#sec_concept > div:nth-child(2),#sec_cats > div:nth-child(2),#sec_system > div:nth-child(2),#sec_access > div:nth-child(2),#sec_news > div:nth-child(2) {
 	width: 100%;
 }
 
-#sec_concept > div:nth-child(2) img,#sec_concept > div:nth-child(4) img,#sec_concept > div:nth-child(6) img,#sec_cats > div:nth-child(2) img,#sec_system > div:nth-child(2) img,#sec_access > div:nth-child(2) img{
+/*幅100%img*/
+#sec_concept > div:nth-child(2) img,#sec_concept > div:nth-child(4) img,#sec_concept > div:nth-child(6) img,#sec_cats > div:nth-child(2) img,#sec_system > div:nth-child(2) img,#sec_access > div:nth-child(2) img,#sec_news > div:nth-child(2) img{
 	height: 34.7vw;
-	max-height: 500px;
 	min-height: 400px;
 	width: 100%;
 	object-fit: cover;
@@ -441,7 +443,6 @@ footer > p{
 #sec_concept > div:nth-child(3),#sec_concept > div:nth-child(5),#sec_concept > div:nth-child(7){
 	width: 100%;
 	padding: 30px 0 40px 0;
-	background-color: #fff;
 	margin-top: 100px;
 	background-repeat: no-repeat;
 }
@@ -483,7 +484,6 @@ footer > p{
 
 #sec_cats > div:nth-child(3){
 	width: 100%;
-	background-color: #fff;
 	margin-top: 100px;
 	padding: 30px 0 ;
 	text-align: center;
@@ -575,7 +575,6 @@ footer > p{
 #sec_system > div:nth-child(3),#sec_system > div:nth-child(4),#sec_system > div:nth-child(5),#sec_access > div:nth-child(3){
 	padding: 30px 0 40px 0;
 	margin-top: 100px;
-	background-color: #fff;
 }
 
 #sec_system > div:nth-child(3){
@@ -680,4 +679,29 @@ footer > p{
 	width: 100%;
 	height: 340px;
 	margin-top: 50px;
+}
+
+#sec_news div:nth-child(3){
+	padding: 30px 0 40px 0;
+	margin-top: 100px;
+
+}
+
+#sec_news div:nth-child(3) dl{
+	margin: 0 auto;
+
+}
+
+
+#making{
+	width: 100vw;
+	height: 200vw;
+	background-color: #cdcdcd;
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	line-height: 50vw;
+	font-size: 5vw;
+	z-index: 999;
 }
