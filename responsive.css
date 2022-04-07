@@ -201,16 +201,16 @@
 	}
 
 	#mainvisual{
-		height: 70vw;
+		height: 100vw;
 	}
 
 	#mainvisual img{
-		height: 70vw;
+		height: 100vw;
 	}
 
 	/*幅100%img*/
 	#sec_concept > div:nth-child(2) img,#sec_concept > div:nth-child(4) img,#sec_concept > div:nth-child(6) img,#sec_cats > div:nth-child(2) img,#sec_system > div:nth-child(2) img,#sec_access > div:nth-child(2) img,#sec_news > div:nth-child(2) img{
-		height: 50vw;
+		height: 70vw;
 		max-height: 400px;
 		min-height: 0;
 	}
