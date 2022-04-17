@@ -215,7 +215,7 @@
 		min-height: 0;
 	}
 
-	#sec_concept > div:nth-child(3) h4,#sec_concept > div:nth-child(5) h4,#sec_concept > div:nth-child(7) h4,#sec_cats > div:nth-child(3) h4,#sec_system h4{
+	#sec_concept > div:nth-child(3) h3,#sec_concept > div:nth-child(5) h3,#sec_concept > div:nth-child(7) h3,#sec_cats > div:nth-child(3) h3,#sec_system h3{
 		font-size: 18px;
 	}
 
@@ -231,7 +231,7 @@
 		font-size: 10px;
 	}
 
-	#about p,#access_inner,footer div,#sec_concept > div:nth-child(3) h4,#sec_concept > div:nth-child(5) h4,#sec_concept > div:nth-child(7) h4,#sec_cats > div:nth-child(3) h4,#sec_system h4,#sec_concept > div:nth-child(3) p,#sec_concept > div:nth-child(5) p,#sec_concept > div:nth-child(7) p,#sec_system > div:nth-child(3) p,#sec_system > div:nth-child(4) p,#sec_system > div:nth-child(5) ul,#sec_system > div:nth-child(5) > p,#sec_access > div:nth-child(3){
+	#about p,#access_inner,footer div,#sec_concept > div:nth-child(3) h3,#sec_concept > div:nth-child(5) h3,#sec_concept > div:nth-child(7) h3,#sec_cats > div:nth-child(3) h3,#sec_system h3,#sec_concept > div:nth-child(3) p,#sec_concept > div:nth-child(5) p,#sec_concept > div:nth-child(7) p,#sec_system > div:nth-child(3) p,#sec_system > div:nth-child(4) p,#sec_system > div:nth-child(5) ul,#sec_system > div:nth-child(5) > p,#sec_access > div:nth-child(3){
 		width: 86%;
 	}
 
@@ -341,7 +341,7 @@
 	}
 
 
-	#sec_concept > div:nth-child(3) h4,#sec_concept > div:nth-child(5) h4,#sec_concept > div:nth-child(7) h4,#sec_cats > div:nth-child(3) h4,#sec_system h4{
+	#sec_concept > div:nth-child(3) h3,#sec_concept > div:nth-child(5) h3,#sec_concept > div:nth-child(7) h3,#sec_cats > div:nth-child(3) h3,#sec_system h3{
 		font-size: 3.56vw;
 	}
 

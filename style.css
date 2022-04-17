@@ -235,7 +235,7 @@ h2{
 }
 
 /*width70%*/
-#about p,#access_inner,footer div,#sec_concept > div:nth-child(3) h4,#sec_concept > div:nth-child(5) h4,#sec_concept > div:nth-child(7) h4,#sec_cats > div:nth-child(3) h4,#sec_system h4,#sec_concept > div:nth-child(3) p,#sec_concept > div:nth-child(5) p,#sec_concept > div:nth-child(7) p,#sec_system > div:nth-child(3) p,#sec_system > div:nth-child(4) p,#sec_cats > div:nth-child(4) ul,#sec_system > div:nth-child(3) dl,#sec_system > div:nth-child(5) ul,#sec_system > div:nth-child(5) > p,#sec_access > div:nth-child(3),#sec_news div:nth-child(3) dl{
+#about p,#access_inner,footer div,#sec_concept > div:nth-child(3) h3,#sec_concept > div:nth-child(5) h3,#sec_concept > div:nth-child(7) h3,#sec_cats > div:nth-child(3) h3,#sec_system h3,#sec_concept > div:nth-child(3) p,#sec_concept > div:nth-child(5) p,#sec_concept > div:nth-child(7) p,#sec_system > div:nth-child(3) p,#sec_system > div:nth-child(4) p,#sec_cats > div:nth-child(4) ul,#sec_system > div:nth-child(3) dl,#sec_system > div:nth-child(5) ul,#sec_system > div:nth-child(5) > p,#sec_access > div:nth-child(3),#sec_news div:nth-child(3) dl{
 	width: 70%;
 }
 
@@ -465,7 +465,7 @@ footer > p{
 	background-size: 200px;
 }
 
-#sec_concept > div:nth-child(3) h4,#sec_concept > div:nth-child(5) h4,#sec_concept > div:nth-child(7) h4,#sec_cats > div:nth-child(3) h4,#sec_system h4{
+#sec_concept > div:nth-child(3) h3,#sec_concept > div:nth-child(5) h3,#sec_concept > div:nth-child(7) h3,#sec_cats > div:nth-child(3) h3,#sec_system h3{
 	margin: 0 auto;
 	font-size: 20px;
 }
@@ -583,7 +583,7 @@ footer > p{
 	background-position: right 15% bottom 10%;
 }
 
-#sec_system > div:nth-child(3) h4:nth-child(n+2){
+#sec_system > div:nth-child(3) h3:nth-child(n+2){
 	margin-top: 40px;
 }
 
